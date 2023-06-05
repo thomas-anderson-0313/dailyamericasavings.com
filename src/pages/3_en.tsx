@@ -298,6 +298,7 @@ export default function Third_EN() {
 						<a href = "tel:+18446170251">
 							<div className='call-btn' onClick={handleCall}>
 								CALL (844) 617-0251
+								<div style={{fontSize:15, color:"grey"}}>TTY 711</div>
 							</div>
 						</a>
 						<div className='sub-title'>We Have Reserved Your Spot</div>
@@ -311,7 +312,18 @@ export default function Third_EN() {
 				)
 			}
 			<div className='footer'>
-				<div className='terms'>Terms & Conditions | Privacy Policy</div>
+				<div style={{fontSize:10, color:"grey"}}>
+					To request plan information without providing personal information, please call the phone number above. We are not affiliated with any plan or endorsed by any government entity or agency. We connect individuals with insurance providers and other affiliates (collectively, “partners”) to give you, the consumer, an opportunity to get information about insurance and connect with licensed insurance agents. By completing the quotes form or calling the number listed above, you will be directed to a partner that can connect you to an appropriately licensed insurance agent who can answer your questions and discuss plan options.We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE (TTY users should call 1-877-486-2048) 24 hours a day/7 days a week to get information on all of your options. Products and services are provided exclusively by our partners, but not all offer the same plans or options. Possible options that may be offered include, but are not limited to, ACA-Qualified Plans, Medicare Advantage Plans, Short Term Plans, Christian/Health Sharing Plans, and Fixed Indemnity Plans. Descriptions are for informational purposes only and subject to change. We encourage you to shop around and explore all of your options. We are not affiliated with or endorsed by any government entity or agency. By using this site, you acknowledge that you have read and agree to the Privacy Policy and Terms & Conditions. Participating sales agencies represent Medicare Advantage [HMO, PPO and PFFS] organizations that are contracted with Medicare. Enrollment depends on the plan’s contract renewal. Enrollment in a plan may be limited to certain times of the year unless you qualify for a special election period, or you are in your Medicare Initial Election Period. Not all plans offer all of the benefits mentioned. $0 premium plans are not available in all areas. Enrollees must continue to pay their Medicare Part B Premium. Deductibles, copay and coinsurance may apply.
+					Plans are insured or covered by a Medicare Advantage organization with a Medicare contract and/or a Medicare-approved Part D sponsor. Enrollment in the plan depends on the plan’s contract renewal with Medicare.
+				</div>
+				<div className='terms'>
+					<span>
+						<a href='https://www.termsandconditionsgenerator.com/live.php?token=QKuYdD58OI9aCmlPqhQEuGwOQZYYbFoY'>Terms & Conditions |</a>
+					</span>
+					<span>
+						<a href='https://www.privacypolicygenerator.info/live.php?token=VLaWEsXvlj8Cdl0o58DWVleLmyB0UvT9'> Privacy Policy</a>
+					</span>
+				</div>
 				<div className='copyright'>Copyright © 2022 - All right reserved Daily America Savings.</div>
 			</div>
 		</div>
