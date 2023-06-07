@@ -295,9 +295,9 @@ export default function Third_EN() {
 						<div className='top-description-5'>Make A <b>Quick Call</b> To Claim Your Flex Card!</div>
 						<div className='spots-count'>Spots remaining: 4</div>
 						<div className='tap-direction'>👇 TAP BELOW TO CALL 👇</div>
-						<a href = "tel:+18446170251">
+						<a href = "tel:+18332332885">
 							<div className='call-btn' onClick={handleCall}>
-								CALL (844) 617-0251
+								CALL (833) 233-2885
 								<div style={{fontSize:15, color:"grey"}}>TTY 711</div>
 							</div>
 						</a>
